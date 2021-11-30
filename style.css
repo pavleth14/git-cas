@@ -16,6 +16,10 @@
     flex-wrap: wrap;
 }
 
+.flexOnly {
+    display: flex;
+}
+
 .spaceBetween {
     justify-content: space-between;
 }
@@ -62,11 +66,15 @@
 }
 
 .maxWidthArticle {
-    width: 700px;
+    
 }
 
 .overflowHidden {
     overflow: hidden;
+}
+
+.p2 {
+    padding: 2rem 0;
 }
 
 
@@ -81,8 +89,9 @@
     .menu {
         display: block;
     }
-
-
+    .responsiveWrap {
+        flex-wrap: wrap;
+    }
 }
 
 
