@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.textWhite {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.alignCenter {
+    align-items: center;
+}
+
+.maxWidth {
+    max-width: 1300px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.borderRed {
+    border: 1px solid red;
+}
+
+.mAuto {
+    margin: 0 auto;
+}
+
+.menu {
+    display: none;
+}
+
+.m2 {
+    margin: 2rem;
+}
+
+.textDecorationNone {
+    text-decoration: none;
+}
+
+.paddingLeft2 {
+    padding-left: 2rem;
+}
+
+.cardImg {
+    width: 300px;
+    height: auto;
+}
+
+.maxWidthArticle {
+    width: 700px;
+}
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .mainMenu {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+
+
+}
+
+
+
+@media (max-width: 620px) {
+    .displayBlock {
+        display: block;
+    }
+    .textAlignCenter {
+        text-align: center;
+    }
+    .img {
+        display: none;
+    }
+}
