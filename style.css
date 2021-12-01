@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .bgBlack {
@@ -58,6 +59,10 @@
     margin-bottom: 0;
 }
 
+.marginLeft2 {
+    margin-left: 2rem;
+}
+
 .textDecorationNone {
     text-decoration: none;
 }
@@ -101,6 +106,10 @@
 
 .mTop1 {
     margin-top: 1rem 0;
+}
+
+.width50 {
+    width:50%;
 }
 
 
