@@ -20,6 +20,8 @@
     display: flex;
 }
 
+
+
 .spaceBetween {
     justify-content: space-between;
 }
@@ -52,6 +54,10 @@
     margin: 2rem;
 }
 
+.mb0 {
+    margin-bottom: 0;
+}
+
 .textDecorationNone {
     text-decoration: none;
 }
@@ -77,6 +83,26 @@
     padding: 2rem 0;
 }
 
+.bgLightGrey {
+    background-color: lightgrey;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.mTop2 {
+    margin-top: 2rem 0;
+}
+
+.mTop1 {
+    margin-top: 1rem 0;
+}
+
 
 
 
@@ -91,6 +117,9 @@
     }
     .responsiveWrap {
         flex-wrap: wrap;
+    }
+    .flexColumn {
+        flex-direction: column;
     }
 }
 
