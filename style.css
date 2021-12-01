@@ -71,6 +71,18 @@
     padding-left: 2rem;
 }
 
+.paddingLeft1 {
+    padding-left: 1rem;
+}
+
+.paddingBottom1 {
+    padding-bottom: 1rem;
+}
+
+.padding1 {
+    padding: 1rem;
+}
+
 .cardImg {
     width: 300px;
     height: auto;
@@ -112,7 +124,13 @@
     width:50%;
 }
 
+.margin1 {
+    margin: 1rem;
+}
 
+.displayBlockDesktop {
+    display: block;
+}
 
 
 
@@ -143,5 +161,11 @@
     }
     .img {
         display: none;
+    }
+    .displayBlockMobile {
+        display: block;
+    }
+    .mAutoMobile {
+        margin: 0 auto;
     }
 }
